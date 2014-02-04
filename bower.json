@@ -6,7 +6,7 @@
     "requirejs": "2.1.10",
     "lodash-amd": "2.4.1",
     "rivets": "0.6.6",
-    "masseuse": "~1.5.3"
+    "masseuse": "1.6.1"
   },
   "devDependencies": {
     "mocha": "1.17.1",

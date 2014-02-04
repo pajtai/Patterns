@@ -2,41 +2,6 @@
 module.exports = function (grunt) {
     'use strict';
     grunt.config('copy', {
-        bower : {
-            files : [
-                {
-                    expand : true,
-                    src : [
-                        'app/**',
-                        '!app/vendor/**',
-                        'tests/**',
-                        'task-configs/**',
-                        'release_notes/**',
-                        'LICENSE-MIT',
-                        'README.md',
-                        'bower.json',
-                        '.travis.yml',
-                        'package.json',
-                        'Gruntfile.js',
-                        '.jshintrc',
-                        '.bowerrc'
-                    ],
-                    dest : 'build/'
-                }
-            ]
-        },
-        jsdoc : {
-            files : [
-                {
-                    expand : true,
-                    cwd : 'docs/',
-                    src : [
-                        '**'
-                    ],
-                    dest : 'build/docs/'
-                }
-            ]
-        },
         tests : {
             files : [
                 {

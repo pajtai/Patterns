@@ -19,4 +19,5 @@ module.exports = function (grunt) {
     grunt.registerTask('test', 'Build and watch task', [
         'jshint', 'connect:tests',  'open:masseuse', 'watch'
     ]);
+    grunt.registerTask('deploy', ['copy:app','build_gh_pages']);
 };

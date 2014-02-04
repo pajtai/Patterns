@@ -2,15 +2,9 @@
 module.exports = function(grunt) {
     'use strict';
     grunt.config('build_gh_pages', {
-        jsdoc : {
+        site : {
             options : {
-                dist : 'build'
-            }
-        },
-        bower : {
-            options : {
-                build_branch : 'bower',
-                dist : 'build'
+                dist : 'app'
             }
         }
     });

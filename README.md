@@ -1,1 +1,2 @@
-http://pajtai.github.io/Patterns/
+* [Two way DOM binding - Masseuse](http://pajtai.github.io/Patterns/two-way-input-binding)
+* [Form validation with Collections - native BB](http://pajtai.github.io/Patterns/form-validation-with-collections)

@@ -26,8 +26,7 @@
             new masseuse.plugins.rivets.RivetsView({
                 el : 'body',
                 template : '<div data-rv-text="model:field"></div><input data-rv-value="model:field" type="text">',
-                rivetsInstaUpdate : true,
-                rivetsConfig : true
+                rivetsInstaUpdate : true
             }).start();
         });
 }());

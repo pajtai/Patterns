@@ -4,17 +4,17 @@
 // Require.js allows us to configure shortcut alias
     require.config({
         paths : {
-            jquery : 'vendor/jquery/jquery',
-            rivets : 'vendor/rivets/dist/rivets',
-            backbone : 'vendor/backbone-amd/backbone',
-            text : 'vendor/requirejs-text/text',
-            boundview : 'validating-collection/bound-view',
-            collectiondata : 'validating-collection/collection-data'
+            jquery : '../vendor/jquery/jquery',
+            rivets : '../vendor/rivets/dist/rivets',
+            backbone : '../vendor/backbone-amd/backbone',
+            text : '../vendor/requirejs-text/text',
+            boundview : './bound-view',
+            collectiondata : './collection-data'
         },
         packages : [
             {
                 name : 'underscore',
-                location : 'vendor/lodash-amd/underscore'
+                location : '../vendor/lodash-amd/underscore'
             }
         ]
     });

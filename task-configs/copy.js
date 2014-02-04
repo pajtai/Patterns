@@ -22,7 +22,7 @@ module.exports = function (grunt) {
                     src : [
                         '**'
                     ],
-                    dest : 'build/app/'
+                    dest : 'build/'
                 }
             ]
         }
